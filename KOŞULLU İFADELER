@@ -1,7 +1,16 @@
-int yas;
+using System;
+
+namespace _1_SadikTuran_temelCEgitimi
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int yas;
             Console.WriteLine("Lütfen yaşını gir");
             yas = Convert.ToInt16(Console.ReadLine());
-            var sonuc = yas >= 18 ? "Reşitsin" : "Henüz Reşit Degilsin";
+            var sonuc = yas >= 18 ? $"Yaşın {yas} Reşitsin" : "Henüz Reşit Degilsin";
             Console.WriteLine(sonuc);
 
             //sonraki örnek
@@ -20,3 +29,6 @@ int yas;
 
 
             Console.ReadLine();
+        }
+    }
+}
