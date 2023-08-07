@@ -1,8 +1,22 @@
-            int yas;
+int yas;
             Console.WriteLine("Lütfen yaşını gir");
             yas = Convert.ToInt16(Console.ReadLine());
             var sonuc = yas >= 18 ? "Reşitsin" : "Henüz Reşit Degilsin";
             Console.WriteLine(sonuc);
+
+            //sonraki örnek
+
+            Console.WriteLine("----------------");
+            Console.WriteLine("Lütfen Yaşını Gir");
+            byte bYas = byte.Parse(Console.ReadLine());
+            if (bYas<18)
+            {
+                Console.WriteLine("Reşit Degilsin");
+            }
+            else
+            {
+                Console.WriteLine($"Yaşın {bYas} Dolayısı ile Reşitsin");
+            }
 
 
             Console.ReadLine();
