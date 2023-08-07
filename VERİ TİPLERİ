@@ -65,7 +65,7 @@
         Console.WriteLine(bVeri);
 
         //Convert() ve Parse() (Uyumsuz tip Dönüşümü)
-        // burada tip dönüşümü int.Parse yada Convert.ToInt16 yada Convert.ToInt23 veya Convert.ToInt64 olarak dönüştürürüz 16 yani short veriye 32 olunca ise int veriye 64 olunca ise long veriye dönüştürürüz
+        // burada tip dönüşümü int.Parse yada Convert.ToInt16 yada Convert.ToInt32 veya Convert.ToInt64 olarak dönüştürürüz 16 yani short veriye 32 olunca ise int veriye 64 olunca ise long veriye dönüştürürüz
         Console.WriteLine("-----------------------------------");
         string stringVeri = "5";
         //int inVeri = int.Parse(stringVeri); // burada Parse işlemi gerçekleşir ama pek kullanımı tercih edilmez genelde Convert metodu uygulanır
