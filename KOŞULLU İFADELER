@@ -26,7 +26,28 @@ namespace _1_SadikTuran_temelCEgitimi
             {
                 Console.WriteLine($"Yaşın {bYas} Dolayısı ile Reşitsin");
             }
-
+            //sonraki örnek
+            string ogrenimDurumu;
+            int eYas;
+            Console.WriteLine("Yaşın");
+            eYas = int.Parse(Console.ReadLine());
+            if (eYas >= 18)
+            {
+                Console.WriteLine("Ögrenim Durumunu Belirt");
+                ogrenimDurumu = Console.ReadLine();
+                if (ogrenimDurumu == "lise")
+                {
+                    Console.WriteLine("Tebrikler ehliyet almanın önünde hiç bir engel göremiyorum");
+                }
+                else
+                {
+                    Console.WriteLine("Ehliyet Alabilmen için ögrenim durumun en az lise olmak zorunda");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Reşit degilsin ehliyet alamazsın.");
+            }
 
             Console.ReadLine();
         }
