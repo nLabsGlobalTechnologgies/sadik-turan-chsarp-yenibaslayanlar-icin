@@ -36,6 +36,7 @@ namespace _1_SadikTuran_temelCEgitimi
             {
                 Console.WriteLine("Ögrenim Durumunu Belirt");
                 ogrenimDurumu = Console.ReadLine();
+                // burada birden fazla şart belirtilmektedir || yani veya yada or yani eger lise yada üniversite ise demek oluyor if blogu kodu anlamı
                 if (ogrenimDurumu == "lise" || ogrenimDurumu == "üniversite")
                 {
                     Console.WriteLine("Tebrikler ehliyet almanın önünde hiç bir engel göremiyorum");
