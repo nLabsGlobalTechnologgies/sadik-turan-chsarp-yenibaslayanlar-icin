@@ -71,7 +71,7 @@
         //int inVeri = int.Parse(stringVeri); // burada Parse işlemi gerçekleşir ama pek kullanımı tercih edilmez genelde Convert metodu uygulanır
         long    longaDonus = Convert.ToInt64(stringVeri);//Long dönüştürme işlemi
         int     inteDonus = Convert.ToInt32(stringVeri);//İnt dönüştürme işlemi
-        short   shortaDonus = short.Parse(stringVeri);//Short dönüştürme işlemi
+        short   shortaDonus = Convert.ToInt16(stringVeri);//Short dönüştürme işlemi
         byte    byteDonus = byte.Parse(stringVeri);//Byte dönüştürme işlemi
 
         Console.WriteLine(longaDonus);
