@@ -8,12 +8,12 @@ Uint: Integer veri tipinin pozitif değerler alan halidir. 0 ile 2×2³¹-1 aras
 Long: Bellek üzerinde 8 Byte yer kaplar.Integer veri tipinden daha uzun tam sayı değerlerini bünyesinde tutabilir. -2⁶³ ile 2⁶³-1 arasındaki değerler tanımlanabilir.<br/>
 Ulong: 0 ile 2×2⁶³ arasındaki tam sayıları tutan veri tipidir.<br/>
 Ondalıklı sayı türünde eleman tutan veri tipleri şu şekildedir;<br/>
-Float: Bellekte 4 Byte yer kaplar.Ondalık sayı türünde eleman tutan veri tipidir. - 3.4 * 10³⁸ ile 3.4 * 10³⁸ arasında bulunan değerleri alır.
-Double: Bellek üzerinde 8 Byte yer kaplar.Ondalık sayı türünde elemanlar alan veri tipidir. - 1.7 * 10³⁰⁸ ile 1.7 * 10³⁰⁸ arasındaki değerleri alır.
-Decmial: Ondalıklı elemanları tutan veri tipidir.Virgülden sonra 28 basamağa kadar destekleyen 128 bit uzunluğuna sahip kesirli bir sayımız var ise kullanacağımız veri tipidir.
-Diğer C# Primitive veri tipleri şu şekildedir;
-Char: Tek karakter türünde değerler alır.Tanımlamaları oluştururken yalnızca bir rakam, işaret veya harf kullanabiliriz. Yapılan tanımlamalar diğer veri tiplerinin aksine tek tırnak arasında yapılmalıdır.
- Boolean: Diğer veri tiplerinin aksine sadece 2 adet değer alır.Bu değerler true veya false’dir.Bellek üzerinde bir bit yer kaplar. Mantıksal veri tipleri olarak da bilinir.
+Float: Bellekte 4 Byte yer kaplar.Ondalık sayı türünde eleman tutan veri tipidir. - 3.4 * 10³⁸ ile 3.4 * 10³⁸ arasında bulunan değerleri alır.<br/>
+Double: Bellek üzerinde 8 Byte yer kaplar.Ondalık sayı türünde elemanlar alan veri tipidir. - 1.7 * 10³⁰⁸ ile 1.7 * 10³⁰⁸ arasındaki değerleri alır.<br/>
+Decmial: Ondalıklı elemanları tutan veri tipidir.Virgülden sonra 28 basamağa kadar destekleyen 128 bit uzunluğuna sahip kesirli bir sayımız var ise kullanacağımız veri tipidir.<br/>
+Diğer C# Primitive veri tipleri şu şekildedir;<br/>
+Char: Tek karakter türünde değerler alır.Tanımlamaları oluştururken yalnızca bir rakam, işaret veya harf kullanabiliriz. Yapılan tanımlamalar diğer veri tiplerinin aksine tek tırnak arasında yapılmalıdır.<br/>
+ Boolean: Diğer veri tiplerinin aksine sadece 2 adet değer alır.Bu değerler true veya false’dir.Bellek üzerinde bir bit yer kaplar. Mantıksal veri tipleri olarak da bilinir.<br/>
 
             //Degişkenler
             //byte sayi1 = 255;
