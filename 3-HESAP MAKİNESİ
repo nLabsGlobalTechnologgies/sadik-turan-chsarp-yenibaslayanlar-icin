@@ -7,8 +7,8 @@ namespace _1_SadikTuran_temelCEgitimi
         static void Main(string[] args)
         {
             //hesap makinesi
-            İint sayi1 = 0;
-            İint sayi2 = 0;
+            int sayi1 = 0;
+            int sayi2 = 0;
             var sonuc = 0;
             Console.WriteLine("1. sayıyı gir");
 
