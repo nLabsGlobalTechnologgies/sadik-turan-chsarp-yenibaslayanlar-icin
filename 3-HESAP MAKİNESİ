@@ -1,0 +1,61 @@
+using System;
+
+namespace _1_SadikTuran_temelCEgitimi
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //hesap makinesi
+            var sayi1 = 0;
+            var sayi2 = 0;
+            var sonuc = 0;
+            Console.WriteLine("1. sayıyı gir");
+
+            sayi1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("işleminizi seçin");
+
+            Console.WriteLine("Toplama İçin : + ");
+            Console.WriteLine("Çıkarma İçin : - ");
+            Console.WriteLine("Çarpma İçin : * ");
+            Console.WriteLine("Bölme İçin : / ");
+            Console.WriteLine("Yüzde İçin : % ");
+            Console.WriteLine("İşlem tipini seç");
+            string secim = Console.ReadLine();
+
+            Console.WriteLine("2. sayıyı gir");
+            sayi2 = Convert.ToInt32(Console.ReadLine());
+
+            if (secim == "+")
+            {
+                sonuc = sayi1 + sayi2;
+            }
+            else if (secim == "-")
+            {
+                sonuc = sayi1 - sayi2;
+                Console.WriteLine($"Sonuç : {sonuc}");
+            }
+            else if (secim == "*")
+            {
+                sonuc = sayi1 * sayi2;
+                Console.WriteLine($"Sonuç : {sonuc}");
+            }
+            else if (secim == "/")
+            {
+                sonuc = sayi1 / sayi2;
+                Console.WriteLine($"Sonuç : {sonuc}");
+            }
+            else if (secim == "%")
+            {
+                sonuc = sayi1 % sayi2;
+                Console.WriteLine($"Sonuç : {sonuc}");
+            }
+            else
+            {
+                Console.WriteLine("İşlem Tipi Geçersiz");
+            }
+
+            Console.ReadLine();
+        }
+    }
+}
