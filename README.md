@@ -1,5 +1,5 @@
 #Veri Tipleri
-Byte: Bellek üzerinde 1 byte yer kaplar. 0’dan başlayarak 255 değerine kadar olan tam sayı aralığında değerler alabilir.
+Byte: Bellek üzerinde 1 byte yer kaplar. 0’dan başlayarak 255 değerine kadar olan tam sayı aralığında değerler alabilir.<br/>
 Sbyte: Byte gibi bellek üzerinde kapladığı yer aynıdır. - 128 ile 127 arasında bulunan tam sayı değerlerini alabilir.
 Short: 2 Byte boyutundadır. -32768 ile 32767 arasında bulunan tam sayı değerlerini alır.
 Ushort: Sbyte gibi pozitif değerleri alır. 0 ile 65535 arasında bulunan tam sayıları alır.
