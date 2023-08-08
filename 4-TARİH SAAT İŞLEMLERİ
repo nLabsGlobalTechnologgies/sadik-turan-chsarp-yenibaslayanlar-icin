@@ -1,0 +1,22 @@
+using System;
+
+namespace _1_SadikTuran_temelCEgitimi
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            var aktifGun = DateTime.Now.DayOfYear;
+            var gunAdi = DateTime.Now.DayOfWeek;
+            var gun = DateTime.Now.Day;
+            var saat = DateTime.Now.Hour;
+            var dakika = DateTime.Now.Minute;
+            Console.WriteLine($"Bugün Ayın {gun}. günü ve gün olarak {gunAdi}");
+            Console.WriteLine($"Şuanda saat : {saat}");
+            Console.WriteLine($"ve dakika olarak {dakika} geçiyor");
+            Console.WriteLine($"Yılın {aktifGun}. günündeyiz");
+
+            Console.ReadLine();
+        }
+    }
+}
