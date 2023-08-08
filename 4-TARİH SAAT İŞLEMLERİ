@@ -6,6 +6,7 @@ namespace _1_SadikTuran_temelCEgitimi
     {
         static void Main(string[] args)
         {
+            // ilk örnek
             var aktifGun = DateTime.Now.DayOfYear;
             var gunAdi = DateTime.Now.DayOfWeek;
             var gun = DateTime.Now.Day;
@@ -16,6 +17,36 @@ namespace _1_SadikTuran_temelCEgitimi
             Console.WriteLine($"ve dakika olarak {dakika} geçiyor");
             Console.WriteLine($"Yılın {aktifGun}. günündeyiz");
 
+            //ikinci örnek
+            var gun = (int)DateTime.Now.DayOfWeek;
+
+            switch (gun)
+            {
+                case 1:
+                    Console.WriteLine("Pazartesi");
+                    break;
+                    case 2:
+                    Console.WriteLine("Salı");
+                    break;
+                    case 3:
+                    Console.WriteLine("Çarşamba");
+                    break;
+                    case 4:
+                    Console.WriteLine("Perşembe");
+                    break;
+                    case 5:
+                    Console.WriteLine("Cuma");
+                    break;
+                    case 6:
+                    Console.WriteLine("Cumartesi");
+                    break;
+                default:
+                    Console.WriteLine("Pazar");
+                    break;
+            }
+
+            Console.WriteLine(gun);
+            
             Console.ReadLine();
         }
     }
