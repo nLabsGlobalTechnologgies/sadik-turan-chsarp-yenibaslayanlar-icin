@@ -7,8 +7,8 @@ namespace _1_SadikTuran_temelCEgitimi
         static void Main(string[] args)
         {
             //hesap makinesi
-            int sayi1 = 0;
-            int sayi2 = 0;
+            var sayi1 = 0;
+            var sayi2 = 0;
             var sonuc = 0;
             Console.WriteLine("1. sayıyı gir");
 
@@ -26,35 +26,40 @@ namespace _1_SadikTuran_temelCEgitimi
             Console.WriteLine("2. sayıyı gir");
             sayi2 = Convert.ToInt32(Console.ReadLine());
 
-            if (secim == "+")
+            if (sayi1 == 0 || sayi2 == 0)
             {
-                sonuc = sayi1 + sayi2;
-            }
-            else if (secim == "-")
-            {
-                sonuc = sayi1 - sayi2;
-                Console.WriteLine($"Sonuç : {sonuc}");
-            }
-            else if (secim == "*")
-            {
-                sonuc = sayi1 * sayi2;
-                Console.WriteLine($"Sonuç : {sonuc}");
-            }
-            else if (secim == "/")
-            {
-                sonuc = sayi1 / sayi2;
-                Console.WriteLine($"Sonuç : {sonuc}");
-            }
-            else if (secim == "%")
-            {
-                sonuc = sayi1 % sayi2;
-                Console.WriteLine($"Sonuç : {sonuc}");
+                Console.WriteLine("0 geçerli bir rakam degil");
             }
             else
             {
-                Console.WriteLine("İşlem Tipi Geçersiz");
-            }
+                if (secim == "+")
+                {
+                    sonuc = sayi1 + sayi2;
+                }
+                else if (secim == "-")
+                {
+                    sonuc = sayi1 - sayi2;
+                }
+                else if (secim == "*")
+                {
+                    sonuc = sayi1 * sayi2;
+                }
+                else if (secim == "/")
+                {
+                    sonuc = sayi1 / sayi2;
+                }
+                else if (secim == "%")
+                {
+                    sonuc = sayi1 % sayi2;
+                }
+                else
+                {
+                    Console.WriteLine("İşlem Tipi Geçersiz");
+                }
 
+                Console.WriteLine($"Sonuç : {sonuc}");
+            }
+            
             Console.ReadLine();
         }
     }
