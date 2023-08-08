@@ -39,6 +39,18 @@ namespace _1_SadikTuran_temelCEgitimi
             }
             Console.WriteLine(toplam);
 
+            //sonraki örnek
+            int toplam = 0;
+            for (int i = 1; i <= 100; i++) 
+            {
+                if (i % 2 == 0)
+                {
+                    //gelen çift sayıların toplamı burada ise sonucumuz 2550 olarak karşımıza çıkacaktır
+                    toplam += i;
+                }
+            }
+            Console.WriteLine(toplam);
+
             Console.ReadLine();
         }
     }
