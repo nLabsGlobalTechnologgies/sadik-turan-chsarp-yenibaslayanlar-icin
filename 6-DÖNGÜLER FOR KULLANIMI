@@ -1,0 +1,19 @@
+using System;
+
+namespace _1_SadikTuran_temelCEgitimi
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // FOR belirtilen sayı kadar yada belirtilen şey her ne ise o kadar tekrar etmeye odaklıdır aşagıdaki örnegimizde 1 den başlayıp sayi yani 15 e kadar ekrana merhaba yazar
+            int sayi = 15;
+            for (int i = 1; i <= sayi; i++) 
+            {
+                Console.WriteLine($"Merhaba {i}");
+            }
+
+            Console.ReadLine();
+        }
+    }
+}
