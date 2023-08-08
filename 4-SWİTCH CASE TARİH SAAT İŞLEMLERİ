@@ -46,6 +46,49 @@ namespace _1_SadikTuran_temelCEgitimi
             }
 
             Console.WriteLine(gun);
+
+            //üçüncü örnek
+            int ay = (int)DateTime.Now.Month;
+
+            switch (ay)
+            {
+                case 1:
+                    Console.WriteLine("Ocak");
+                    break;
+                case 2:
+                    Console.WriteLine("Şubat");
+                    break;
+                case 3:
+                    Console.WriteLine("Mart");
+                    break;
+                case 4:
+                    Console.WriteLine("Nisan");
+                    break;
+                case 5:
+                    Console.WriteLine("Mayıs");
+                    break;
+                case 6:
+                    Console.WriteLine("Haziran");
+                    break;
+                case 7:
+                    Console.WriteLine("Temmuz");
+                    break;
+                case 8:
+                    Console.WriteLine("Agustos");
+                    break;
+                case 9:
+                    Console.WriteLine("Eylül");
+                    break;
+                case 10:
+                    Console.WriteLine("Ekim");
+                    break;
+                case 11:
+                    Console.WriteLine("Kasım");
+                    break;
+                default:
+                    Console.WriteLine("Aralık");
+                    break;
+            }
             
             Console.ReadLine();
         }
