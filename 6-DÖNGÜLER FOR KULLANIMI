@@ -21,6 +21,15 @@ namespace _1_SadikTuran_temelCEgitimi
                 Console.WriteLine($"Merhaba {i}");
             }
 
+            // sonraki örnek
+            int sayi = 15;
+            for (int i = 1; i <= sayi; i++) 
+            {
+                Console.WriteLine($"Merhaba {i}");
+                //bu işlem örnegin 1,2,3 şeklinde ilerlemesi gerekirken aşagıdaki kod sayesinde 1,3,5,7 şeklinde döngüye devam eder
+                i++;
+            }
+
 
             Console.ReadLine();
         }
