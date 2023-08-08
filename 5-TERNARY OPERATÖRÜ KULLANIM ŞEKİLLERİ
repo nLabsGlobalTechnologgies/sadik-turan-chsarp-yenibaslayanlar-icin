@@ -1,0 +1,21 @@
+using System;
+
+namespace _1_SadikTuran_temelCEgitimi
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //ilk örnek
+            //Ternary Operatörü yani ? operatörü bu genellikle Single Line İf Else işlemlerinde kullanılır
+
+            var sayi = 0;
+            Console.WriteLine("bir sayı giriniz");
+            sayi = Convert.ToInt16(Console.ReadLine());
+            var sonuc = (sayi % 2 == 0) ? "Çift Sayı" : "Tek Sayı";
+            Console.WriteLine(sonuc);
+
+            Console.ReadLine();
+        }
+    }
+}
