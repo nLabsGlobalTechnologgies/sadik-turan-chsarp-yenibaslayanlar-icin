@@ -7,11 +7,20 @@ namespace _1_SadikTuran_temelCEgitimi
         static void Main(string[] args)
         {
             // FOR belirtilen sayı kadar yada belirtilen şey her ne ise o kadar tekrar etmeye odaklıdır aşagıdaki örnegimizde 1 den başlayıp sayi yani 15 e kadar ekrana merhaba yazar
+            // ilk örnek arttırma işlemi
             int sayi = 15;
             for (int i = 1; i <= sayi; i++) 
             {
                 Console.WriteLine($"Merhaba {i}");
             }
+
+            // sonraki örnek sonsuz döngüye sokabilirsiniz bu şekilde
+            int sayi = 15;
+            for (int i = 1; i <= sayi; i--) 
+            {
+                Console.WriteLine($"Merhaba {i}");
+            }
+
 
             Console.ReadLine();
         }
