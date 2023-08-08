@@ -15,6 +15,14 @@ namespace _1_SadikTuran_temelCEgitimi
             var sonuc = (sayi % 2 == 0) ? "Çift Sayı" : "Tek Sayı";
             Console.WriteLine(sonuc);
 
+            //sonraki örnek
+            var sayi = 0;
+            Console.WriteLine("bir sayı giriniz");
+            sayi = Convert.ToInt16(Console.ReadLine());
+            //burada birden fazla single line if biçimini görüyoruz iç içe if else olayı yani
+            var sonuc = (sayi % 2 == 0) ? (sayi > 0 ? "Sayı çift pozitif" : "Sayı çift negatif") : (sayi > 0 ? "Sayı tek pozitif" : "Sayı tek negatif");
+            Console.WriteLine(sonuc);
+
             Console.ReadLine();
         }
     }
