@@ -84,6 +84,34 @@ namespace _1_SadikTuran_temelCEgitimi
                 Console.WriteLine("Merhaba" + i);
             }
 
+            // sonraki örnek
+            // burada çarpım bölme mod alma gibi işlemleri de dahil ettik
+            int baslangic = 0, bitis = 0, artisMiktar = 0, sayac = 0, toplam = 0;
+            Console.WriteLine("Başlangıç rakamı giriniz");
+            baslangic =Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Bitiş rakamı giriniz");
+            bitis = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Artış miktarını seçiniz");
+            artisMiktar = Convert.ToInt32( Console.ReadLine());
+
+
+
+
+            for (int i = baslangic; i <= bitis; i = i + artisMiktar)
+            {
+                sayac++;
+                toplam += i;
+                Console.WriteLine("{1}.sayı : {0}", i, sayac);
+
+                toplam *= i;
+                Console.WriteLine($"toplam {toplam}");
+                toplam /= i;
+                Console.WriteLine($"toplam {toplam}");
+                toplam %= i;
+                Console.WriteLine($"toplam {toplam}");
+
+            }
+            Console.WriteLine("Toplam deger : {0}", toplam);
             Console.ReadLine();
         }
     }
