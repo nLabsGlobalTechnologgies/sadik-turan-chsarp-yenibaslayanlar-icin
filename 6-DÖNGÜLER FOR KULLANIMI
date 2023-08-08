@@ -70,6 +70,20 @@ namespace _1_SadikTuran_temelCEgitimi
             Console.WriteLine($"Toplam Tek Sayı {toplamTek}");
             Console.WriteLine($"Toplam Çift Sayı {toplamCift}");
 
+            // sonraki örnek
+            // burda ise biz hiç bir bilgiyi manuel girmiyoruz bu bilgileri client yani kullanıcı bize versin istiyoruz örnek kullanıcı 1 den başlayıp 30 da sonlanacak ve 1 1 yada 2 2 artacak bir döngü kurmuş oluyor kodumuzda
+            int baslangic, bitis, artisMiktar;
+            Console.WriteLine("Başlangıç rakamı giriniz");
+            baslangic =Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Bitiş rakamı giriniz");
+            bitis = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Artış miktarını seçiniz");
+            artisMiktar = Convert.ToInt32( Console.ReadLine());
+            for (int i = baslangic; i <= bitis; i = i + artisMiktar)
+            {
+                Console.WriteLine("Merhaba" + i);
+            }
+
             Console.ReadLine();
         }
     }
