@@ -51,6 +51,25 @@ namespace _1_SadikTuran_temelCEgitimi
             }
             Console.WriteLine(toplam);
 
+            // sonraki örnek
+            //burada ise mod alma işlemi kullanarak toplam çift sayı yani 2,4,6 şeklinde devam eden çift sayıları ve 1,3,5 şeklinde devam eden tek sayıların toplamını elde ettik
+            int toplamCift = 0;
+            int toplamTek = 0;
+            for (int i = 1; i <= 145; i++) 
+            {
+
+                if (i % 2 == 0)
+                {
+                    toplamCift += i;
+                }
+                else
+                {
+                    toplamTek += i;
+                }
+            }
+            Console.WriteLine($"Toplam Tek Sayı {toplamTek}");
+            Console.WriteLine($"Toplam Çift Sayı {toplamCift}");
+
             Console.ReadLine();
         }
     }
