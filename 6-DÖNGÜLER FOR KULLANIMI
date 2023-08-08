@@ -30,6 +30,14 @@ namespace _1_SadikTuran_temelCEgitimi
                 i++;
             }
 
+            //sonraki örnek
+            //burada 1 ile 100 arasındaki tüm sayıları her döngüde toplam ile toplayarak sonucu elde ettik sonuç olarak 5050 degerine ulaştık
+            int toplam = 0;
+            for (int i = 1; i <= 100; i++) 
+            {
+                toplam += i;
+            }
+            Console.WriteLine(toplam);
 
             Console.ReadLine();
         }
