@@ -1,0 +1,20 @@
+using System;
+
+namespace _1_SadikTuran_temelCEgitimi
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // do while kullanımında while den farklı olarak ilk önce do döngüsü çalışır sonra while kontrolu gerçekleşir ve belirledigimiz şart gerçekleşene kadar while do içerisine gönderir programı
+            int i = 9;
+            do
+            {
+                Console.WriteLine("do döngüsü "+i);
+                i--;
+            } while (i>1);
+
+            Console.ReadLine();
+        }
+    }
+}
