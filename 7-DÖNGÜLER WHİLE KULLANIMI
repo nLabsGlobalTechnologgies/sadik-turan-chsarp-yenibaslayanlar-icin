@@ -27,6 +27,27 @@ namespace _1_SadikTuran_temelCEgitimi
             }
             Console.WriteLine("while geçersiz");
 
+            // sonraki örnek
+
+            int toplam = 0;
+            char secim = 'e';
+            int sayac = 1;
+            while (secim=='e')
+            {
+                Console.WriteLine($"{sayac}. sayıyı girin:");
+                toplam += Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Devam etmek istiyor musun? (e/h)");
+                secim = Convert.ToChar(Console.ReadLine());
+                sayac++;
+            }
+            // aşagıda eger ki e yada h tuş kombinasyonu dışında bir kullanım gerçekleşirse uyarı verip programın akışını durduruyoruz return; ile
+            if (secim != 'e' || secim != 'h')
+            {
+                Console.WriteLine("Lütfen geçerli bir seçim yapın.");
+                return;
+            }
+            Console.WriteLine($"Sayıların toplamı : {toplam}");
+
             Console.ReadLine();
         }
     }
