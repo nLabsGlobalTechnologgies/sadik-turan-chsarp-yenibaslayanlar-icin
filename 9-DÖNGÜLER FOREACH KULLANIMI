@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace _1_SadikTuran_temelCEgitimi
 {
@@ -6,8 +7,16 @@ namespace _1_SadikTuran_temelCEgitimi
     {
         static void Main(string[] args)
         {
+            // aşagıdaki string metinsel bir dizidir kendisi array yani
             string[] uyeler = new string[] { "Ali", "Veli", "Deli", "Burası" };
-            foreach (var item in uyeler)
+            // aşagıdaki int te bir dizidir ama sayısal bir dizidir kendisi array yani
+            int[] rakamlar = new int[] { 1, 2, 3, 4, 5 };
+            // aşagıdaki kod ise bir listedir ama aynı zamanda metinsel bir dizi barındırır içerisinde
+            List<string> list = new List<string>();
+            // aşagıdaki kod ile ise list içerisine ekleme yaparız tabi bu bir class olup tüm class içerisindeki tüm elemanlarıda barındırabilirdi.
+            list.Add("Ahmet");
+            list.Add("Mehmet");
+            foreach (var item in list)
             {
                 Console.WriteLine(item);
             }
