@@ -17,6 +17,16 @@ namespace _1_SadikTuran_temelCEgitimi
             //i 10 a gelince while sonlanıp bu alana gelecektir. yani işlemi nerde sonlandıracak isek while içerisinde sonlandırma kodumuzu yazıyoruz aksi halde sürekli şart saglandıkça while içinde kalacaktır.
             Console.WriteLine("while geçersiz");
 
+            // sonraki örnek
+            bool b = true;
+            while (b)
+            {
+                Console.WriteLine(b.ToString());
+                // eger burada false yapmazsak bool degişkeni while den asla çıkmaz ve sonsuz döngü oluşur
+                b = false;
+            }
+            Console.WriteLine("while geçersiz");
+
             Console.ReadLine();
         }
     }
