@@ -1,0 +1,19 @@
+using System;
+
+namespace _1_SadikTuran_temelCEgitimi
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] uyeler = new string[] { "Ali", "Veli", "Deli", "Burası" };
+            foreach (var item in uyeler)
+            {
+                Console.WriteLine(item);
+            }
+
+
+            Console.ReadLine();
+        }
+    }
+}
