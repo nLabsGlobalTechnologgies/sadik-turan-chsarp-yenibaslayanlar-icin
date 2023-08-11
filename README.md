@@ -3,7 +3,7 @@ udemy deki
 Komple uygulamalı programlama egitimi yeni başlayanlar için egitiminden edinilen bilgilere dayanılarak hazırlanmaktadır
 kendisine teşekkürü bir borç bilirim
 Egitim Linki aşagıdaki gibidir
-[![Github Badge]([https://img.shields.io/badge/-Github-000?style=quare&labelColor=000&logo=Github&logoColor=white&link=link](https://www.udemy.com/course/komple-uygulamali-programlama-egitimi-yeni-baslayanlar))](Komple uygulamalı programlama egitimi yeni başlayanlar için) 
+[![Github Badge](https://www.udemy.com/course/komple-uygulamali-programlama-egitimi-yeni-baslayanlar))](Komple uygulamalı programlama egitimi yeni başlayanlar için) 
 
 
 <a href="https://www.udemy.com/course/komple-uygulamali-programlama-egitimi-yeni-baslayanlar" target="_blank">Komple uygulamalı programlama egitimi yeni başlayanlar için</a>
