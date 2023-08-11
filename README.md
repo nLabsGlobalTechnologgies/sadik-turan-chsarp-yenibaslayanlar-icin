@@ -3,10 +3,10 @@ udemy deki
 Komple uygulamalı programlama egitimi yeni başlayanlar için egitiminden edinilen bilgilere dayanılarak hazırlanmaktadır
 kendisine teşekkürü bir borç bilirim
 Egitim Linki aşagıdaki gibidir
-<a href="https://www.udemy.com/course/komple-uygulamali-programlama-egitimi-yeni-baslayanlar" target="_blank">Komple uygulamalı programlama egitimi yeni başlayanlar için</a>
+**<a href="https://www.udemy.com/course/komple-uygulamali-programlama-egitimi-yeni-baslayanlar" target="_blank">Komple uygulamalı programlama egitimi yeni başlayanlar için</a>
 
 
-<!--
+
 **Repo İçerigi
 **1-Veri tipleri
 **2-Koşullu İfadeler
@@ -21,3 +21,4 @@ Egitim Linki aşagıdaki gibidir
 
 #Her bir dosya birden fazla örnek barındırmaktadır.
 #Not : Sürekli Güncellenmektedir.
+**
