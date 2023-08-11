@@ -1,0 +1,23 @@
+using System;
+
+namespace _1_SadikTuran_temelCEgitimi
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int i = 1;
+            // burada eger i küçük yada eşitse 10 a diyoruz for gibi kullanıyoruz
+            while (i<=10)
+            {
+                Console.WriteLine("Merhaba "+i);
+                // eger i yi arttırmazsak sürekli döngü devam eder aşagıdaki kodu kullanıp 10a kadar arttırma yaptık
+                i++;
+            }
+            //i 10 a gelince while sonlanıp bu alana gelecektir. yani işlemi nerde sonlandıracak isek while içerisinde sonlandırma kodumuzu yazıyoruz aksi halde sürekli şart saglandıkça while içinde kalacaktır.
+            Console.WriteLine("while geçersiz");
+
+            Console.ReadLine();
+        }
+    }
+}
