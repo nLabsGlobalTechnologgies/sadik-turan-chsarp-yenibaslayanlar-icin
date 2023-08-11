@@ -85,6 +85,7 @@ namespace _1_SadikTuran_temelCEgitimi
             do
             {
                 Console.WriteLine("1-Bakiye Görüntüle\n2-Bakiye Ekle\n3-Para Gönder\n4-Çıkış");
+                Console.WriteLine("-------------------------------------");
                 secim = Console.ReadLine();
                 switch (secim)
                 {
