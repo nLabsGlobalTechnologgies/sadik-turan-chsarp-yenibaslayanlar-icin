@@ -79,6 +79,39 @@ namespace _1_SadikTuran_temelCEgitimi
             } while (secim != "4");
             Console.WriteLine("İyi günler tekrar bekleriz...");
 
+            // sonraki örnek bu örnegimiz de ise atm modülümüzde para çekerken bir şart ekledik ve bakiye kontrolü ekledik
+            string secim;
+            double bakiye = 0;
+            do
+            {
+                Console.WriteLine("1-Bakiye Görüntüle\n2-Bakiye Ekle\n3-Para Gönder\n4-Çıkış");
+                secim = Console.ReadLine();
+                switch (secim)
+                {
+                    case "1":
+                        Console.WriteLine($"Bakiyeniz {bakiye} TL");
+                        break;
+                    case "2":
+                        Console.WriteLine($"Eklenecek bakiye miktarını girin :");
+                        double miktar = Convert.ToDouble(Console.ReadLine());
+                        bakiye += miktar;
+                        break;
+                    case "3":
+                        Console.WriteLine($" Gönderilecek para miktarını girin :");
+                        double tutar = Convert.ToDouble(Console.ReadLine());
+                        if (tutar>bakiye)
+                        {
+                            Console.WriteLine($"Bakiyeniz Yetersiz lütfen bakiyeniz olan {bakiye} den fazla çekmeye çalışmayınız\n");
+                        }
+                        else
+                        {
+                            bakiye -= tutar;
+                        }
+                        break;
+                }
+            } while (secim != "4");
+            Console.WriteLine("İyi günler tekrar bekleriz...");
+
             Console.ReadLine();
         }
     }
