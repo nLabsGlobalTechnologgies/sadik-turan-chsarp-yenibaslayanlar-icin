@@ -26,6 +26,33 @@ namespace _1_SadikTuran_temelCEgitimi
             } while (username!="admin" || password!="admin");
             Console.WriteLine($"Kontrol paneline hoş geldin {username}");
 
+            // sonraki örnek hak kontrolü ekledik
+            string username = "", password = "";
+            int hak = 2;
+            
+            do
+            {
+                hak--;
+                if (hak == 0)
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Kullanıcı adını gir :");
+                    username = Console.ReadLine();
+                    Console.WriteLine("Parolanı gir :");
+                    password = Console.ReadLine();
+                }
+            } while (username!="admin" || password!="admin");
+            if (hak == 0)
+            {
+                Console.WriteLine("Tüm haklarını kullandın ama başarılı olamadın.");
+                Console.ReadLine();
+                return;
+            }
+            Console.WriteLine($"Kontrol paneline hoş geldin {username}");
+
             Console.ReadLine();
         }
     }
