@@ -48,6 +48,41 @@ namespace _1_SadikTuran_temelCEgitimi
             }
             Console.WriteLine($"Sayıların toplamı : {toplam}");
 
+            // sonraki örnek
+            var rnd = new Random();
+            int tutulan = rnd.Next(1, 10);
+            int sayi = 0;
+            int hak = 3;
+            int sayac = 0;
+            Console.WriteLine(tutulan); ;
+            while (hak > 0)
+            {
+                sayac++;
+                Console.WriteLine("Lütfen sayı girin.");
+                sayi = Convert.ToInt32(Console.ReadLine());
+                if (sayi == tutulan)
+                {
+                    Console.WriteLine($"Tebrikler {sayac} defada bildin");
+                }
+                else
+                {
+                    if (tutulan>sayi)
+                    {
+                        Console.WriteLine("Yukarı");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Aşagı");
+                    }
+                }
+                hak--;
+                if (hak==0)
+                {
+                    Console.WriteLine("Oyun bitti");
+                    break;
+                }
+            }
+
             Console.ReadLine();
         }
     }
