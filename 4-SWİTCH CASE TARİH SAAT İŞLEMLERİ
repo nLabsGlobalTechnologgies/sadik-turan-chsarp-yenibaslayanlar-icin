@@ -45,8 +45,6 @@ namespace _1_SadikTuran_temelCEgitimi
                     break;
             }
 
-            Console.WriteLine(gun);
-
             //üçüncü örnek
             int ay = (int)DateTime.Now.Month;
 
