@@ -1,0 +1,43 @@
+using System;
+using System.Linq;
+
+namespace _1_SadikTuran_temelCEgitimi
+{
+    internal partial class Program
+    {
+        static void Main(string[] args)
+        {
+            //Primitive Types
+            //primitive tipler Stack Bölgesinde tutulur
+            //1. Struct, int, string vs
+            int a = 50;
+            int b = a;
+            Console.WriteLine($"a : {a}");
+            Console.WriteLine($"b : {b}");
+            Console.WriteLine("----------");
+            b = 100;
+            Console.WriteLine($"a : {a}");
+            Console.WriteLine($"b : {b}");
+            Console.WriteLine("-------------");
+            //2. Array Class String Reference Types
+            // Reference Types yani Referans Tipler
+            //bu tipler Heap Bölgesinde tutulur
+            int[] numDizi = new int[2];
+            int[] numDizi2 = numDizi;
+            numDizi[0] = a;
+            numDizi[1] = b;
+            numDizi2[0] = 100;
+            Console.WriteLine(numDizi[0]);
+            Console.WriteLine(numDizi[1]);
+            Console.WriteLine("-----------");
+            foreach (var item in numDizi2)
+            {
+                Console.WriteLine(item);
+            }
+
+
+
+            Console.ReadLine();
+        }        
+    }
+}
