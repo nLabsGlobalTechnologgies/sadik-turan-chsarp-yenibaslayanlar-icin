@@ -22,7 +22,7 @@ Repo İçerigi
 09-Döngüler(foreach) Kullanımı
 10-Sınıf kullanımı sınıflar
 11-Struct kullanımı
-
+12-Diziler
 
 Her bir dosya birden fazla örnek barındırmaktadır.
 Not : Sürekli Güncellenmektedir.
