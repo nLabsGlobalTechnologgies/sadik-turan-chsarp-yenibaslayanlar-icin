@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 
 namespace _1_SadikTuran_temelCEgitimi
 {
@@ -6,8 +7,8 @@ namespace _1_SadikTuran_temelCEgitimi
     {
         enum MyEnum
         {
-            Adana=01,
-            Mersin=02
+            Adana=1,
+            Mersin=2
         }
 
         static void Main(string[] args)
@@ -15,16 +16,23 @@ namespace _1_SadikTuran_temelCEgitimi
             var adanaEnum = MyEnum.Adana;
             var mersinEnum = MyEnum.Mersin;
 
+
             var adanaId = (int)adanaEnum;
-            if (adanaEnum < mersinEnum)
+            var mersinId = (int)mersinEnum;
+
+            Console.WriteLine("Şehir numarasını girin plaka kodlarını hatırlayınız 1/adana - 2/mersin");
+
+            var sehirler = int.Parse(Console.ReadLine());
+            switch (sehirler)
             {
-                Console.WriteLine(adanaId + " Nolu Şehirdesiniz");
-                Console.WriteLine(adanaEnum.ToString());
+                case 1:
+                    Console.WriteLine(adanaEnum);
+                    break;
+                case 2:
+                    Console.WriteLine(mersinEnum);
+                    break;
             }
-            else
-            {
-                Console.WriteLine("else işlemi degil yani");
-            }
+
 
 
             Console.ReadLine();
