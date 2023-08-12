@@ -73,7 +73,7 @@ namespace _1_SadikTuran_temelCEgitimi
             Console.WriteLine("--------------------------");
             foreach (var item in names)
             {
-                Console.WriteLine(item);
+                Console.WriteLine($"{item} - {item.Length} Karakter - {item.ToLower()} küçük harflere çevrildi - {item.ToUpper()} büyük harfe çevrildi - {item.Contains(item)} bu isim var mı yokmu true evet false hayır");
             }
 
 
