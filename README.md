@@ -21,6 +21,7 @@ Repo İçerigi
 08-Döngüler(do-while) Kullanımı
 09-Döngüler(foreach) Kullanımı
 10-Sınıf kullanımı sınıflar
+11-Struct kullanımı
 
 
 Her bir dosya birden fazla örnek barındırmaktadır.
