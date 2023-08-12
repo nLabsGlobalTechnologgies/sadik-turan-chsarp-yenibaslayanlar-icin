@@ -2,7 +2,7 @@
 //1. Equals Kullanımı / if (str1.Equals(str2) == true)
 //2. Compare Kullanımı / if (string.Compare(str1, str2) == 0)
 //3.
-//
+//ilk örnek
 string _email = "abc@abc.com";
 string _password = "abc";
 
@@ -14,6 +14,17 @@ if (string.Compare(email, _email)==0 && string.Compare(password, _password)== 0)
 //if (_email.Equals(email) && _password.Equals(password))
 {
     Console.WriteLine("Bilgiler Dogru Hoş geldin");
+}
+else
+{
+    Console.WriteLine("Lütfen tekrar deneyiniz");
+}
+//sonraki örnek
+string _email = "abc@abc.com";
+
+if (_email.StartsWith("ab") == true)
+{
+    Console.WriteLine("evet ab kelimesi harfleri ile başlıyor cümle");
 }
 else
 {
