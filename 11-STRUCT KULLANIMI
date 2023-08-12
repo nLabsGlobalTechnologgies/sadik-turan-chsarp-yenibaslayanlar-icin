@@ -1,0 +1,38 @@
+using System;
+
+namespace _1_SadikTuran_temelCEgitimi
+{
+    internal partial class Program
+    {
+
+        static void Main(string[] args)
+        {
+        //dikdörtgeni oluşturuyoruz ve nesnemizin parametrelerini verip sonra sonuc olarak hesaplamasını yaptırıp ekrana yazdırıyoruz
+            Dikdortgen dikdortgen = new Dikdortgen();
+            dikdortgen._kisaKenar = 5;
+            dikdortgen._uzunKenar = 5;
+            int sonuc = dikdortgen.AlanHesapla(dikdortgen._kisaKenar, dikdortgen._uzunKenar);
+            Console.WriteLine(sonuc);
+            Console.ReadLine();
+        }        
+    }
+}
+//Dikdortgen sınıfını başka bir dosya olarak oluşturum siz Main üzerinde tanımlayabilirsiniz
+namespace _1_SadikTuran_temelCEgitimi
+{
+    internal partial class Program
+    {
+        public struct Dikdortgen
+        {
+            public int _kisaKenar { get; set; }
+            public int _uzunKenar { get; set; }
+//dışarıdan alınacak degerleri tanımlıyoruz
+            public int AlanHesapla(int kisaKenar, int uzunKenar)
+            {
+                _kisaKenar = kisaKenar;
+                _uzunKenar = uzunKenar;
+                return _kisaKenar * _uzunKenar;
+            }
+        }
+    }
+}
