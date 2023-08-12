@@ -6,17 +6,17 @@ namespace _1_SadikTuran_temelCEgitimi
     {
         enum MyEnum
         {
-            IlkEnum=1,
-            SonrakiEnum=2,
+            Adana=1,
+            Mersin=2,
         }
 
         static void Main(string[] args)
         {
-            var ilkEnum = MyEnum.IlkEnum;
-            var sonrakiEnum = MyEnum.SonrakiEnum;
-            if (ilkEnum<sonrakiEnum)
+            var ilkEnum = MyEnum.Adana;
+            var sonrakiEnum = MyEnum.Mersin;
+            if (ilkEnum==1)
             {
-                Console.WriteLine("ilk enum sonraki enumdan küçük");
+                Console.WriteLine(ilkEnum.ToString() + "Adana Plakası Dogru Bir Karar");
             }
             else
             {
