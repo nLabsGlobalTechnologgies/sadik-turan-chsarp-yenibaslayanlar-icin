@@ -11,16 +11,16 @@ Egitim Linki aşagıdaki gibidir
 
 Repo İçerigi
 
-1-Veri tipleri
-2-Koşullu İfadeler
-3-İf Else ile Hesap Makinesi Yapımı
-4-Switch Case Tarih İşlemleri
-5-Ternary Operatörü Kullanımı
-6-Döngüler(for) Kullanımı
-7-Döngüler(While) Kullanımı
-8-Döngüler(do-while) Kullanımı
-9-Döngüler(foreach) Kullanımı
-
+01-Veri tipleri
+02-Koşullu İfadeler
+03-İf Else ile Hesap Makinesi Yapımı
+04-Switch Case Tarih İşlemleri
+05-Ternary Operatörü Kullanımı
+06-Döngüler(for) Kullanımı
+07-Döngüler(While) Kullanımı
+08-Döngüler(do-while) Kullanımı
+09-Döngüler(foreach) Kullanımı
+10-Sınıf kullanımı sınıflar
 
 
 Her bir dosya birden fazla örnek barındırmaktadır.
