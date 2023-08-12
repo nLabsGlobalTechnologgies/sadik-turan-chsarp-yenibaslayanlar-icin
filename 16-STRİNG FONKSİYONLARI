@@ -1,0 +1,20 @@
+//String İşlemleri
+//1. Equals Kullanımı / if (str1.Equals(str2) == true)
+//2. Compare Kullanımı / if (string.Compare(str1, str2) == 0)
+//3. 
+
+string str1 = "a";
+string str2 = "b";
+int sonuc1 = string.Compare(str1, str2);
+if (sonuc1 == 0)
+{
+    Console.WriteLine("degerler aynı");
+}
+else if (sonuc1 == 1)
+{
+    Console.WriteLine($"{str2} - {str1} den alfabetik olarak önde gelir");
+}
+else if(sonuc1 == -1)
+{
+    Console.WriteLine($"{str1} - {str2} den alfabetik olarak önde gelir");
+}
