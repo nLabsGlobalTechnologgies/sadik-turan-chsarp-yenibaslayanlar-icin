@@ -1,20 +1,24 @@
 //String İşlemleri
 //1. Equals Kullanımı / if (str1.Equals(str2) == true)
 //2. Compare Kullanımı / if (string.Compare(str1, str2) == 0)
-//3. 
+//3.
+//
+string _email = "abc@abc.com";
+string _password = "abc";
 
-string str1 = "a";
-string str2 = "b";
-int sonuc1 = string.Compare(str1, str2);
-if (sonuc1 == 0)
+Console.WriteLine("Email Adresi Girin");
+string email = Console.ReadLine();
+Console.WriteLine("Parola Girin");
+string password = Console.ReadLine();
+if (string.Compare(email, _email)==0 && string.Compare(password, _password)== 0)
+//if (_email.Equals(email) && _password.Equals(password))
 {
-    Console.WriteLine("degerler aynı");
+    Console.WriteLine("Bilgiler Dogru Hoş geldin");
 }
-else if (sonuc1 == 1)
+else
 {
-    Console.WriteLine($"{str2} - {str1} den alfabetik olarak önde gelir");
+    Console.WriteLine("Lütfen tekrar deneyiniz");
 }
-else if(sonuc1 == -1)
-{
-    Console.WriteLine($"{str1} - {str2} den alfabetik olarak önde gelir");
-}
+
+Console.ReadLine();
+
