@@ -66,10 +66,15 @@ namespace _1_SadikTuran_temelCEgitimi
             string ad1 = "ahmet";
             string ad2 = "mehmet";
             //aşagıdaki örnegimizde ise belirledigimiz sayı kadar eleman ekleyelim
-            string[] adlar=new string[2] { ad1, ad2 };
+            string[] adlar = new string[2] { ad1, ad2 };
             //aşagıdaki örnegimizde ise ekledigimiz kadar elemana sahip olan bir dizi tanımlayalım
             string[] names = new string[] {ad1,ad2,"Veli","Korhan" };
             //yukarıda görüldügü üzere istedigimiz kadar eleman ekleyebiliriz
+            Console.WriteLine("--------------------------");
+            foreach (var item in names)
+            {
+                Console.WriteLine(item);
+            }
 
 
             Console.ReadLine();
