@@ -1,0 +1,78 @@
+using System;
+
+namespace _1_SadikTuran_temelCEgitimi
+{
+    internal partial class Program
+    {
+
+        static void Main(string[] args)
+        {
+            // diziler
+            //burada ilk örnek int üzerinden olacak
+            // örnek 10 tane ögrencimiz olsa biz bunları tek tek int ogr1,2,3,4, gibi yazmamız gerekecekti normal lakin bir dizide ise bu şekilde olmayacak 
+            int ogr1 = 1;
+            int ogr2 = 2;
+            int ogr3 = 3;
+            int ogr4 = 4;
+            int ogr5 = 5;
+            int ogr6 = 6;
+            int ogr7 = 7;
+            int ogr8 = 8;
+            int ogr9 = 9;
+            int ogr10 = 10;
+            //burada görüldügü üzere int tüm veriler biz bunu aşagıdaki gibi de yapabilirdik
+            int st1, st2, st3, st4, st5, st6, st7, st8, st9, st10;
+            st1 = 1;
+            st2 = 2;
+            st3 = 3;
+            st4 = 4;
+            st5 = 5;
+            st6 = 6;
+            st7 = 7;
+            st8 = 8;
+            st9 = 9;
+            st10 = 10;
+            //yukarı daki gibide yapabiliriz lakin buda dogru bir kullanım örnegi degildir
+            //dogru kullanım örnegi aşagıdaki gibi olacaktır.
+            //burada students dizisinin 10 elemanı olacagını söyledik
+
+            int[] students = new int[10];
+            students[0] = 1;
+            students[1] = 2;
+            students[2] = 3;
+            students[3] = 4;
+            students[4] = 5;
+            students[5] = 6;
+            students[6] = 7;
+            students[7] = 8;
+            students[8] = 9;
+            students[9] = 10;
+            foreach (var item in students)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("-------------------");
+            //burada görüldügü gibi 10 elemanlı bir ögrenciler listesi oluşturduk tabi bunu başka yolla da oluşturabilirdik
+            //aşagıda farklı bir kullanım örnegi var
+            int[] ogrenciler = new int[] { 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
+            //yukarıdaki örnegimizde istedigimiz kadar deger yani eleman ekledik arttırabiliriz bunu
+            foreach (var item in ogrenciler)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("--------------------");
+            //aşagıdaki örnegimizde ise ögrencilerin adını tanımladıgımız bir string dizisini nasıl yapabiliriz bakalım
+
+            string ad1 = "ahmet";
+            string ad2 = "mehmet";
+            //aşagıdaki örnegimizde ise belirledigimiz sayı kadar eleman ekleyelim
+            string[] adlar=new string[2] { ad1, ad2 };
+            //aşagıdaki örnegimizde ise ekledigimiz kadar elemana sahip olan bir dizi tanımlayalım
+            string[] names = new string[] {ad1,ad2,"Veli","Korhan" };
+            //yukarıda görüldügü üzere istedigimiz kadar eleman ekleyebiliriz
+
+
+            Console.ReadLine();
+        }        
+    }
+}
