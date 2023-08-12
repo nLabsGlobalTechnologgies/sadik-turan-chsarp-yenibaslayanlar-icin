@@ -24,6 +24,8 @@ Repo İçerigi
 11-Struct kullanımı
 12-Diziler
 13-Enumlar
+14-Primitive/Reference Types
+15-Struct - Class Farkları
 
 Her bir dosya birden fazla örnek barındırmaktadır.
 Not : Sürekli Güncellenmektedir.
