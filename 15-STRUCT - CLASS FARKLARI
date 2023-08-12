@@ -1,0 +1,75 @@
+//struct ve class farkları
+//struct kullanım örnegi
+
+Urun iphone = new Urun();
+iphone.Ad = "Iphone 6S";
+iphone.Fiyat = 2500;
+UrunGetir(iphone);
+UrunGuncelle(iphone);
+UrunGetir(iphone);
+
+Console.ReadLine();
+
+
+
+static void UrunGuncelle(Urun urun)
+{
+    urun.Fiyat *= 1.5;
+    //burada struct kullandıgımız için direkt olarak güncellemeyi göremeyiz
+    Console.WriteLine($"Güncellenmiş Fiyatı: {urun.Fiyat}");
+}
+
+static void UrunGetir(Urun urun)
+{
+    Console.WriteLine($"Ürün adı: {urun.Ad} - Fiyatı: {urun.Fiyat}");
+}
+
+
+struct Urun
+{
+    public string Ad { get; set; }
+    public double Fiyat { get; set; }
+}
+
+//CLASS kullanım örnegi
+//struct ve class farkları
+
+
+Product iphone = new Product();
+iphone.Ad = "Iphone 6S";
+iphone.Fiyat = 2500;
+UrunGetir(iphone);
+UrunGuncelle(iphone);
+UrunGetir(iphone);
+
+Console.ReadLine();
+
+
+
+static void UrunGuncelle(Product urun)
+{
+    //class kullandıgımız için degişimi direkt görebiliriz ekstradan urun guncelleme işleminde ekrana basmamıza gerek yoktur.
+    urun.Fiyat *= 1.5;
+}
+
+static void UrunGetir(Product urun)
+{
+    Console.WriteLine($"Ürün adı: {urun.Ad} - Fiyatı: {urun.Fiyat}");
+}
+
+
+struct Urun
+{
+    public string Ad { get; set; }
+    public double Fiyat { get; set; }
+}
+class Product
+{
+    public string Ad { get; set; }
+    public double Fiyat { get; set; }
+}
+class Product
+{
+    public string Name { get; set; }
+    public float Fiyat { get; set; }
+}
