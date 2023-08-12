@@ -6,19 +6,20 @@ namespace _1_SadikTuran_temelCEgitimi
     {
         enum MyEnum
         {
-            Adana=1,
-            Mersin=2
+            Adana=01,
+            Mersin=02
         }
 
         static void Main(string[] args)
         {
-            var ilkEnum = MyEnum.Adana;
-            var sonrakiEnum = MyEnum.Mersin;
-            var sehirId = (int)ilkEnum;
-            if (ilkEnum<sonrakiEnum)
+            var adanaEnum = MyEnum.Adana;
+            var mersinEnum = MyEnum.Mersin;
+
+            var adanaId = (int)adanaEnum;
+            if (adanaEnum < mersinEnum)
             {
-                Console.WriteLine(sehirId + " Nolu Şehirdesiniz");
-                Console.WriteLine(ilkEnum.ToString());
+                Console.WriteLine(adanaId + " Nolu Şehirdesiniz");
+                Console.WriteLine(adanaEnum.ToString());
             }
             else
             {
