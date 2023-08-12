@@ -65,6 +65,15 @@ namespace _1_SadikTuran_temelCEgitimi
 
             string ad1 = "ahmet";
             string ad2 = "mehmet";
+            // aşagıda students deki gibi ekleme yapalım
+            string[] ogrencilerim = new string[2];
+            ogrencilerim[0] = "Karabela";
+            ogrencilerim[1] = "BeyazBela";
+            foreach (var item in ogrencilerim)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("-----------------------");
             //aşagıdaki örnegimizde ise belirledigimiz sayı kadar eleman ekleyelim
             string[] adlar = new string[2] { ad1, ad2 };
             //aşagıdaki örnegimizde ise ekledigimiz kadar elemana sahip olan bir dizi tanımlayalım
