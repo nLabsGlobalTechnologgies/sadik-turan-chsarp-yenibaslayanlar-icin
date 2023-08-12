@@ -1,0 +1,30 @@
+using System;
+
+namespace _1_SadikTuran_temelCEgitimi
+{
+    internal partial class Program
+    {
+        enum MyEnum
+        {
+            IlkEnum=1,
+            SonrakiEnum=2,
+        }
+
+        static void Main(string[] args)
+        {
+            var ilkEnum = MyEnum.IlkEnum;
+            var sonrakiEnum = MyEnum.SonrakiEnum;
+            if (ilkEnum<sonrakiEnum)
+            {
+                Console.WriteLine("ilk enum sonraki enumdan küçük");
+            }
+            else
+            {
+                Console.WriteLine("else işlemi degil yani");
+            }
+
+
+            Console.ReadLine();
+        }        
+    }
+}
