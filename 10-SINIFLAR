@@ -95,7 +95,7 @@ namespace _1_SadikTuran_temelCEgitimi
     }
 }
 
-//Maths sınıfını da yine aynı şekilde ayrı bir dosya olarak oluşturdum ve burada geriye deger döndüren bir metod yazdık dışardan deger alan bir metod
+//Hesaplama sınıfını da yine aynı şekilde ayrı bir dosya olarak oluşturdum ve burada geriye deger döndüren bir metod yazdık dışardan deger alan bir metod
 namespace _1_SadikTuran_temelCEgitimi
 {
     public class Hesaplama
