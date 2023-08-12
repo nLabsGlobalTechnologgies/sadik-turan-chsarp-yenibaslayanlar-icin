@@ -23,6 +23,7 @@ Repo İçerigi
 10-Sınıf kullanımı sınıflar
 11-Struct kullanımı
 12-Diziler
+13-Enumlar
 
 Her bir dosya birden fazla örnek barındırmaktadır.
 Not : Sürekli Güncellenmektedir.
